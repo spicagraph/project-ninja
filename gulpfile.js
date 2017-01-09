@@ -23,6 +23,6 @@ gulp.task("pngMinTask", function() {
 
 // watchタスク
 gulp.task("default", function() {
-  gulp.watch("src/**/*svg", ['svgMinTask']),
-  gulp.watch("src/**/*png", ['pngMinTask'])
+  gulp.watch("src/**/*.svg", ['svgMinTask']),
+  gulp.watch("src/**/*.png", ['pngMinTask'])
 });

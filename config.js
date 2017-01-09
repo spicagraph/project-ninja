@@ -1,4 +1,4 @@
-const tasks = {
+var tasks = {
   svg: {
     plugins: [
       { removeEmptyAttrs:  true },
