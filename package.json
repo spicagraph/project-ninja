@@ -1,0 +1,27 @@
+{
+  "name": "project-ninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spicagraph/project-ninja.git"
+  },
+  "keywords": [
+    "ninja"
+  ],
+  "author": "ayaka sumida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spicagraph/project-ninja/issues"
+  },
+  "homepage": "https://github.com/spicagraph/project-ninja#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-svgmin": "^1.2.3"
+  }
+}
